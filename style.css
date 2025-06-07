@@ -1,0 +1,88 @@
+.titulo-centralizado {
+  text-align: center;
+  font-style: italic;
+}
+nav {
+  background-color: #ffd7ef;
+  padding: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #5b0065;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #c70085;
+}
+
+body {
+  background: #eeaeca;
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: xx-large;
+  color: #120537;
+}
+.container {
+  display: flex;
+  gap: 15px;
+  width: fit-content;
+  margin: 0 auto;
+}
+.post {
+  width: 200px;
+  padding: 5px;
+  border: solid 2px gray;
+}
+.post > img {
+  width: 100%;
+  transition: 0.5s;
+}
+.post > img:hover {
+  transform: scale(1.1);
+}
+footer {
+  background-color: #eeaeca;
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 16px;
+  margin-top: 30px;
+  font-family: Arial, sans-serif;
+}
+
+.paws {
+  font-size: 24px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+.Histoas {
+  text-align: center;
+  color: #eeaeca padding;
+  font-family: "Courier New", Courier, monospace;
+}
